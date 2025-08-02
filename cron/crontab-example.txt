@@ -1,0 +1,9 @@
+# Run system updates every Sunday at 2 AM
+0 2 * * 0 /path/to/system-update.sh
+
+# Clean temp files daily at midnight
+0 0 * * * /path/to/cleanup-temp.sh
+
+# Rotate logs every Friday at 3 AM
+0 3 * * 5 /path/to/rotate-logs.sh
+
